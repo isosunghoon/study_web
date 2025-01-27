@@ -2,7 +2,7 @@
   "name": "study_web",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://isosunghoon.github.io/study_web",
+  "homepage": "https://isosunghoon.github.io/study_web/",
   "type": "module",
   "scripts": {
     "dev": "vite",

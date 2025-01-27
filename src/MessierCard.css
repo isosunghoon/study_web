@@ -1,0 +1,18 @@
+.MessierCard{
+    width: 80vw;
+    border: 1px black solid;
+    padding: 0.5vh 0.5vw;
+    border-radius: 3px;
+}
+.MessierCardTitle{
+    font-size: 3rem;
+}
+.MessierCardContainer{
+    display: flex;
+}
+.MessierCardImg{
+    width: 20vw;
+    height: 20vw;
+    margin-right: 0.5vw;
+    border-radius: 5px;
+}

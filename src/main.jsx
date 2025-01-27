@@ -1,5 +1,9 @@
 import { createRoot } from 'react-dom/client'
+import App from './App'
+import React from 'react'
 
 createRoot(document.getElementById('root')).render(
-  <h1>hello world</h1>
+  <React.StrictMode>
+    <App/>
+  </React.StrictMode>
 )
