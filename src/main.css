@@ -5,11 +5,32 @@
     box-sizing: border-box;
 }
 
-#main{
-    padding: 2vh 1vw 0 1vw;
-    display: grid;
+#content{
+    margin-top:2vh;
+    height:90vh;
+}
+
+#topbar{
     width: 100vw;
-    justify-content: center;
-    grid-template-columns: repeat(4, 20vw);
-    gap: 1vh 1vw;
+    display: flex;
+    background-color: #222222;
+    height: 8vh;
+}
+
+.topbarButton{
+    appearance: none;
+    border: none;
+    background: transparent;
+    color: white;
+    padding: 8px 16px;
+    font-size: 1rem;
+}
+
+.topbarButton:hover {
+    background-color: #333333;
+}
+
+.logo{
+    margin-right:10vw;
+    font-weight: bolder;
 }
